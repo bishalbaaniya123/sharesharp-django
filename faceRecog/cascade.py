@@ -5,7 +5,6 @@ from PIL import Image
 from django.conf import settings
 BASE_DIR = settings.BASE_DIR
 
-
 '''
     Take image as an input
     Detect face

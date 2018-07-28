@@ -11,7 +11,7 @@ General Languages and versions
 
 Run -
 
-    python manage.py runserver --nothreading –noreload
+    python manage.py runserver --nothreading --noreload
 
 Demo Video
 https://www.youtube.com/watch?v=p70srlZvyvQ&feature=youtu.be
@@ -23,6 +23,7 @@ Config steps:
     enter this command
     CREATE DATABASE django_project;
 3. pip install matplotlib
-4. python manage.py makemigrations
+4. pip install opencv-contrib-python
+5. python manage.py makemigrations
    python manage.py migrate
-5. python manage.py runserver
+6. python manage.py runserver

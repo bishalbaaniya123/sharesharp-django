@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'faceRecog.wsgi.application'
 DATABASES = {
     'default':{
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_project',
+        'NAME': 'django_project2',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
