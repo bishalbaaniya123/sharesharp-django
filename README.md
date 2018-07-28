@@ -15,3 +15,14 @@ Run -
 
 Demo Video
 https://www.youtube.com/watch?v=p70srlZvyvQ&feature=youtu.be
+
+Config steps:
+1. Download and install mySQL server 5.5 (latest one will not work)
+    imp: specify the port 8889
+2. Then open MySQL 5.5 Command Line Client
+    enter this command
+    CREATE DATABASE django_project;
+3. pip install matplotlib
+4. python manage.py makemigrations
+   python manage.py migrate
+5. python manage.py runserver
